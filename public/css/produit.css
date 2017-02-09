@@ -1,0 +1,21 @@
+img {
+  width: 20vh;
+  height: 20vh;
+
+}
+h1 {
+  color: black;
+  font-size: 30px;
+
+
+}
+#btncontact {
+  color: black;
+}
+
+
+a:link
+{
+
+ text-decoration:none;
+}

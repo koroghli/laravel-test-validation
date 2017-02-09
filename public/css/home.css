@@ -1,0 +1,14 @@
+body {
+  background: url('/css/images/backhome.jpg');
+  background-size: cover;
+
+}
+h1,h2,h3,p {
+  color : white;
+}
+#h1 {
+ color:black;
+}
+main {
+  
+}
