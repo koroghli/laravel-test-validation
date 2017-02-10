@@ -18,5 +18,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 Route::get('/produit', 'ProduitController@index');
 Route::get('/contact', 'ContactController@index');
-Route::post('/contact/email', 'ContactController@send');
+Route::post('/contact', 'ContactController@insert');
+Route::get('/admin', 'AdminController@index');
+Route::get('/admin', 'AdminController@get');
+/*se deconnecter*/
 Route::get('/logout', 'Auth/LonginContactContrroller@index');

@@ -1,14 +1,42 @@
 body {
-  background: url('/css/images/backhome.jpg');
+  background: url('/css/images/bijou.jpg');
   background-size: cover;
 
 }
-h1,h2,h3,p {
+h1,h2,h3,h4,p {
   color : white;
 }
 #h1 {
  color:black;
 }
 main {
-  
+
+}
+#desc {
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.7);
+  width: 50vh;
+}
+#qui {
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.7);
+  width: 50%;
+}
+#qui {
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.7);
+  width: 50%;
+
+}
+#qui {
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.7);
+  width: 50%;
+
+}
+#app {
+  height: 10vh;
 }

@@ -1,0 +1,16 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100em;
+}
+body{
+  background: fixed url('/css/images/backpro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: white;
+}
+#btn{
+  background-color: ;
+  color: white;
+}

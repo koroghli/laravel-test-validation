@@ -11,7 +11,7 @@
     <title>koroghli Amira test de validation : @yield('title')</title>
       <!-- charger bootstrap -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/css/app.css" rel="stylesheet">
+      <link href="/css/app.css" rel="stylesheet">
 
 
     <!-- Scripts -->
@@ -22,6 +22,7 @@
     </script>
 </head>
 <body id="@yield('page')">
+  
   @yield('content')
 </div>
 

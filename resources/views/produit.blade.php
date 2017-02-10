@@ -4,6 +4,12 @@
 @section('content')
 
 <link rel="stylesheet" href="/css/produit.css">
+<style media="screen">
+body {
+  background: url('/css/images/backpro.jpg');
+
+}
+</style>
   <body>
     <div class="container">
       <div class="row">
