@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .row{
+=======
+.container {
+>>>>>>> 9e26a59b43fbad7b6068c3714dab64e1144b7dd4
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100em;
 }

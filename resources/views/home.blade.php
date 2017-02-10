@@ -15,6 +15,7 @@
                   <li id="a"><a href="/home">Accueil</a></li>
                   <li><a href="/produit">Produit</a></li>
                   <li><a href="/contact">Contact</a><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+<<<<<<< HEAD
 
                     <li>
                       <a href="/admin">Messages</a>
@@ -22,6 +23,9 @@
                 
 
 
+=======
+                  <li><a href="/admin">Messages</a></li>
+>>>>>>> 9e26a59b43fbad7b6068c3714dab64e1144b7dd4
               </div>
             </div>
           </nav>
@@ -34,7 +38,11 @@
          <li><a href="{{ route('register') }}">S'enregistrer</a></li>
        @else
          <li class="dropdown">
+<<<<<<< HEAD
              <a style="color:white ;border:12px soid black;background-color:black"href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+=======
+             <a style="color:white ;border:12px soid black;background-color:black;"href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+>>>>>>> 9e26a59b43fbad7b6068c3714dab64e1144b7dd4
                  Utilisateur: {{ Auth::user()->name }}
              </a>
 

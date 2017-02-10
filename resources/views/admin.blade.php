@@ -40,6 +40,7 @@
               <td>Email</td>
               <td>Message</td>
             </tr>
+<<<<<<< HEAD
               @foreach ($persons as $person)
                 <tr>
                   <td>{{$person->name}}</td>
@@ -47,6 +48,15 @@
                   <td>{{$person->message}}</td>
                 </tr>
               @endforeach
+=======
+            @foreach ($persons as $person)
+              <tr>
+                <td>{{$person->name}}</td>
+                <td>{{$person->email}}</td>
+                <td>{{$person->message}}</td>
+              </tr>
+            @endforeach
+>>>>>>> 9e26a59b43fbad7b6068c3714dab64e1144b7dd4
           </table>
         </div>
         <div class="row" id="row">

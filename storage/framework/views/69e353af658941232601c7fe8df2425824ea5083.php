@@ -1,26 +1,8 @@
-@extends('layouts.app')
-@section('page','produit')
-@section('title','produit')
-@section('content')
+<?php $__env->startSection('page','produit'); ?>
+<?php $__env->startSection('title','produit'); ?>
+<?php $__env->startSection('content'); ?>
 
 <link rel="stylesheet" href="/css/produit.css">
-<<<<<<< HEAD
-<script type="text/javascript"src="https://code.jquery.com/jquery-3.1.1.js"integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<style media="screen">
-body {
-  background: fixed url('/css/images/backpro.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.9;
-=======
-<style media="screen">
-body {
-  background: url('/css/images/backpro.jpg');
->>>>>>> 9e26a59b43fbad7b6068c3714dab64e1144b7dd4
-
-}
-</style>
   <body>
     <div class="container">
       <div class="row">
@@ -66,21 +48,8 @@ body {
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-    <script>
-    $(document).ready(function(){
-        $("img").click(function(){
-            $("img").animate({
-                left: '150px',
-                height: '150px',
-                width: '150px'
-            });
-            alert('si tu veux savoir nos prix il suffit de nous contacter tu trouveras nos coordonnées sur la page home');
-        });
-    });
-    </script>
-=======
->>>>>>> 9e26a59b43fbad7b6068c3714dab64e1144b7dd4
 
 </body>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
